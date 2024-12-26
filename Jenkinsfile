@@ -9,9 +9,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/patilom-24/demo-repo.git'
             }
         }
-        
-        
-        // Step 2: Deploy the index.html file
         stage('Deploy HTML File') {
             steps {
                 sh '''
