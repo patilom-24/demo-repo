@@ -10,6 +10,7 @@ pipeline {
             }
         }
         
+        
         // Step 2: Deploy the index.html file
         stage('Deploy HTML File') {
             steps {
